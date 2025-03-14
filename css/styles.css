@@ -1,0 +1,48 @@
+body{
+    background-color: #fffafa;
+}
+
+header .navbar{
+    background-color: #f3eeee !important;
+}
+
+header{
+    box-shadow: 0 2px 10px #B99C8C
+}
+a {
+    color: #B99C8C !important;
+    font-size: 24px !important;
+}
+
+#carouselExampleCaptions {
+    height: 400px; /* Altere o valor para o tamanho desejado */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do carrossel */
+  }
+
+/* Adiciona um pouco de margem superior nas colunas para garantir que fiquem distantes do carrossel */
+.columns-container {
+    margin-top: 250px; /* Ajuste o valor conforme necessário */
+    align-items: center !important;
+    justify-items: center !important;
+  }
+
+/* Define o comportamento flexível para a linha de colunas */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+  }
+
+/* Definir altura fixa para as imagens do carrossel */
+.carousel-inner .carousel-item img {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura */
+    height: 600px; /* Defina a altura fixa (ajuste conforme necessário) */
+    object-fit: contain; /* Garante que a imagem preencha o espaço sem distorcer */
+    background-size: contain; /* Garante que a imagem será redimensionada para caber totalmente no contêiner */
+    background-position: center center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Garante que a imagem não se repita */
+  }
+
+h5{
+    font-style: oblique;
+}
